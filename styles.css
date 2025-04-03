@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #000; /* Ensure default text color is black */
+    color: #000;
 }
 
 header {
@@ -26,7 +26,7 @@ main {
 #post-list {
     list-style: none;
     padding: 0;
-    display: block; /* Ensure the post list is visible */
+    display: block;
 }
 
 #post-list li {
@@ -34,5 +34,5 @@ main {
     margin: 0.5rem 0;
     padding: 0.5rem;
     border-radius: 5px;
-    background-color: #f9f9f9; /* Add a light background for better visibility */
+    background-color: #f9f9f9;
 }
