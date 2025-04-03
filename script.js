@@ -66,7 +66,7 @@ const postId = urlParams.get('id');
 
 // Fetch posts from local storage
 const posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
-const post = posts.find(p => p.id == postId);
+const post = posts.find(p => p.id === Number(postId));
 
 if (post) {
     // Display post details
