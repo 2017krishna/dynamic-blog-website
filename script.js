@@ -131,4 +131,8 @@ if (post) {
             }
         });
     }
+    else {
+     alert('Post not found!');
+     window.location.href = 'index.html';
+ }
 }
